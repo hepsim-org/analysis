@@ -11,7 +11,7 @@ This example shows how to process LCIO files from HepSim on a Linux/bash system,
    export LCIO_DIR=`pwd`/LCIO 
    mkdir build
    cd build
-   cmake -DINSTALL_DOC=OFF -DCMAKE_INSTALL_PREFIX=$LCIO_DIR -DCMAKE_SKIP_RPATH=1 ..
+   cmake -DINSTALL_DOC=OFF -DCMAKE_INSTALL_PREFIX=$LCIO_DIR -DCMAKE_SKIP_RPATH=1 ../LCIO
    make install -j4
    cd ../../.. 
 ```
