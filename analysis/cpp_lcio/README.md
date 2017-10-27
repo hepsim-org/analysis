@@ -16,7 +16,7 @@ This example shows how to process LCIO files from HepSim on a Linux/bash system,
    cd ../../.. 
 ```
 
-Check your installation. The variables LCIO_DIR and ROOTSYS should return the installation paths. Check this as: 
+Check your installation. The variables LCIO_DIR and ROOTSYS should return the installation paths: 
 
 ```
    echo $LCIO_DIR
