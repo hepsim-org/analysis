@@ -5,19 +5,16 @@ This example shows how to process LCIO files from HepSim on a Linux/bash system,
  1. Install LCIO (https://github.com/iLCSoft/LCIO) and ROOT packages. If ROOT is already installed, the LCIO package can be installed as: 
 
 ```
-   wget https://github.com/iLCSoft/LCIO/archive/v02-06.zip  
-   unzip v02-06.zip  -d lcio
-   export LCIO_DIR=`pwd`/lcio 
-   cd lcio/LCIO-02-06
-   rm -rf build
+   mkdir lcio
+   cd lcio
+   git clone -b v02-07-05 https://github.com/iLCSoft/LCIO.git
+   export LCIO_DIR=`pwd`/LCIO 
    mkdir build
    cd build
    cmake -DINSTALL_DOC=OFF -DCMAKE_INSTALL_PREFIX=$LCIO_DIR -DCMAKE_SKIP_RPATH=1 ..
    make install -j4
    cd ../../.. 
 ```
-
-For simulations created using FPadSim 4.0 (Aug. 2017), we use the LCIO library v02.07.05.
 
 Check your installation. The variables LCIO_DIR and ROOTSYS should return the installation paths. Check this as: 
 
