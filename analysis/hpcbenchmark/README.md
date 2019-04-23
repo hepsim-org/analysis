@@ -1,4 +1,4 @@
-# HepSim/auroratest
+# A benchmarking library for CPU/IO  using ProIO inputs 
 
 This is benchmark example showing  IO and CPU intensive 
 calcutaions which are typical for collider experiments.
