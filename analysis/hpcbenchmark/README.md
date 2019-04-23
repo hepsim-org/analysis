@@ -16,16 +16,16 @@ the same.
    echo $PROMC
    echo $ROOTSYS
 ```
-  they should return the installation paths. 
+ They should return the installation paths. 
 
  3. Compile as "make"
 
  4. Download ProMC files from HepSim and put them to the "data" directory. Use hs-tools as: 
   
 ``` 
-   hs-get tev100_higgs_ttbar_mg5 data
+   hs-get tev13pp_mg5_ttbar_njet data
 ```
-   See the HepSim documentation. 
+   (13 TeV pp collisions with ttbar+jets). See the HepSim documentation. 
 
  5. Process all files inside the directory "data" using the command "./example".
 
