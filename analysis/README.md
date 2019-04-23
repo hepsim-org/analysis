@@ -4,5 +4,6 @@ Analysis code examples showing how to read data from  [HepSim Monte Carlo reposi
 
  - cpp_promc - Reading ProMC files and building antiKT jets 
  - cpp_lcio  - Reading LCIO files with reconstructed events
+ - hpcbenchmark - benchmarking CPI and IO on HPC
 
 S.Chekanov (ANL)   
